@@ -8,6 +8,9 @@ body {
   color: #ffffff;
   background-color: #1e1e1e;
 }
+p{
+  text-indent: 20px;
+}
 body {
   position: relative;
 }
@@ -95,6 +98,13 @@ header {
   vertical-align: middle;
   border: 4px solid #ffffff;
   border-radius: 50%;
+
+  cursor: pointer;
+  transition: all .5s;
+}
+.header__item:hover{
+  scale: 1.25;
+  border: 6px solid #ffffff;
 }
 
 ul.header__items {
@@ -293,5 +303,13 @@ ul.header__items-bottom {
 /* Типовой блок (с картинками) END */
 
 .block-text__inner{
-  
+
+}
+
+.block-text__list{
+  list-style: inside;
+}
+
+.block-text__item{
+
 }
