@@ -42,14 +42,11 @@ body::before {
 }
 
 .section {
-  position: relative;
-  /* height: 66vh; */
+  min-height: 66vh;
 }
 
 section {
   margin: 100px 0px;
-  position: relative;
-  /* height: 66vh; */
 }
 
 .container {
@@ -273,7 +270,8 @@ ul.header__items-bottom {
 }
 
 .block-points__inner img {
-  max-width: 35%;
+  max-width: 50%;
+  padding: 24px;
 }
 
 .block-points__inner p {
@@ -355,6 +353,7 @@ ul.header__items-bottom {
 .contact-us__item {
   display: flex;
   margin-top: 8px;
+  justify-content: space-between;
 }
 
 .requisites__item {
@@ -377,4 +376,13 @@ ul.header__items-bottom {
   margin: 0 10px;
   border-bottom: 3px solid gray;
   border-radius: 100px;
+}
+
+.contact-us__title{
+  text-align: center;
+}
+
+.requisites__item-img{
+  width: 28px;
+  margin-right: 5px;
 }
